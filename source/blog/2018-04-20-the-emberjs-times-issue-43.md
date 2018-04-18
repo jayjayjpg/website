@@ -36,6 +36,11 @@ and leave your thoughts and suggestions in the comments below.
 
 ## [EMBER](yoururl)
 
+### ES5 getters for computed properties
+With Ember 3.1 you now get ES5 getters for computed properties since our target browsers support ES5 getters. The motivation is to improve developer ergonomics and interoperability with other tooling and libraries. For the property to recompute you still need to use `this.set()`or `Ember.set()`.
+
+Yet, this doesn’t mean that `this.get()` is now deprecated. There’s actually still a lot of cases where you should use `this.get()` instead of the ES5 getter. You can read all about it in the  [release post](https://www.emberjs.com/blog/2018/04/13/ember-3-1-released.html#toc_es5-getters-for-computed-properties-1-of-3).
+
 ---
 
 ## [EMBER LEARN](yoururl)
